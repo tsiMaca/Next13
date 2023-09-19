@@ -1,7 +1,9 @@
 import Link from "next/link"
+
 export const metadata = {
   title:"Tienda Oficial",
 }
+
 export default function TiendaLayout({children}) {
     return <>
     <navbar>
